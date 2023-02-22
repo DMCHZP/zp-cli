@@ -1,0 +1,26 @@
+{
+  "name": "zp-cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "dmchzp <1835707049@qq.com>",
+  "homepage": "https://github.com/DMCHZP/zp-cli#readme",
+  "license": "ISC",
+  "main": "lib/zp-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMCHZP/zp-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/zp-cli.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/DMCHZP/zp-cli/issues"
+  }
+}
