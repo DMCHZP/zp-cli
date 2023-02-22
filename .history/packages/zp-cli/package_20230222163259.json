@@ -24,7 +24,9 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node ./__tests__/zp-cli.test.js"
+  },
   "bugs": {
     "url": "https://github.com/DMCHZP/zp-cli/issues"
   },

@@ -1,7 +1,7 @@
 {
   "name": "zp-cli",
   "version": "1.0.0",
-  "description": "我的cli",
+  "description": "> TODO: description",
   "author": "dmchzp <1835707049@qq.com>",
   "homepage": "https://github.com/DMCHZP/zp-cli#readme",
   "license": "ISC",
@@ -9,9 +9,6 @@
   "directories": {
     "lib": "lib",
     "test": "__tests__"
-  },
-  "bin": {
-    "booster": "bin/booster.js"
   },
   "files": [
     "lib"
@@ -24,7 +21,9 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node ./__tests__/zp-cli.test.js"
+  },
   "bugs": {
     "url": "https://github.com/DMCHZP/zp-cli/issues"
   },
